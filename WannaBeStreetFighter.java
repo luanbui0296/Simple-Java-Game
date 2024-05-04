@@ -31,8 +31,8 @@ public class WannaBeStreetFighter extends JPanel {
 
         try {
             //fighter image
-            ryu = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/boat.png"));
-            background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+            ryu = ImageIO.read(new File("boat.png"));
+            background = ImageIO.read(new File("ITExpert.jpg"));
         } catch (IOException ex) {  ex.printStackTrace();   }
 
         fireBalls = new LinkedList<>();
