@@ -64,8 +64,8 @@ public class ProductAssembly2Dgame extends JPanel  implements MouseMotionListene
 
         try {
             //fighter image
-            //ryu = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/boat.png"));
-            background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/grass.jpg"));
+            //ryu = ImageIO.read(new File("boat.png"));
+            background = ImageIO.read(new File("grass.jpg"));
             ll=new LunchBox();
             lunch=new Lunch();
             pp=new PizzaFactory();
@@ -313,8 +313,8 @@ public class ProductAssembly2Dgame extends JPanel  implements MouseMotionListene
         public LunchBox() {
         	try {
                 //fighter image
-                lunchbox = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/lunchbox.jpg"));
-                //background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+                lunchbox = ImageIO.read(new File("lunchbox.jpg"));
+                //background = ImageIO.read(new File("ITExpert.jpg"));
             } catch (IOException ex) {  ex.printStackTrace();   }
         }
 
@@ -333,8 +333,8 @@ public class ProductAssembly2Dgame extends JPanel  implements MouseMotionListene
         public PizzaFactory() {
         	try {
                 //fighter image
-                image = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/pizzafactory.jpg"));
-                //background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+                image = ImageIO.read(new File("pizzafactory.jpg"));
+                //background = ImageIO.read(new File("ITExpert.jpg"));
             } catch (IOException ex) {  ex.printStackTrace();   }
         }
 
@@ -352,8 +352,8 @@ public class ProductAssembly2Dgame extends JPanel  implements MouseMotionListene
         public CupCakeFactory() {
         	try {
                 //fighter image
-                image = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/cupcakefactory.jpg"));
-                //background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+                image = ImageIO.read(new File("cupcakefactory.jpg"));
+                //background = ImageIO.read(new File("ITExpert.jpg"));
             } catch (IOException ex) {  ex.printStackTrace();   }
         }
 
@@ -371,8 +371,8 @@ public class ProductAssembly2Dgame extends JPanel  implements MouseMotionListene
         public BiCycleFactory() {
         	try {
                 //fighter image
-                image = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/bicyclefactory.jpg"));
-                //background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+                image = ImageIO.read(new File("bicyclefactory.jpg"));
+                //background = ImageIO.read(new File("ITExpert.jpg"));
             } catch (IOException ex) {  ex.printStackTrace();   }
         }
 
@@ -392,8 +392,8 @@ public class ProductAssembly2Dgame extends JPanel  implements MouseMotionListene
         public Lunch() {
         	try {
                 //fighter image
-                image = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/lunch.jpg"));
-                //background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+                image = ImageIO.read(new File("lunch.jpg"));
+                //background = ImageIO.read(new File("ITExpert.jpg"));
             } catch (IOException ex) {  ex.printStackTrace();   }
         }
 
@@ -430,8 +430,8 @@ public class ProductAssembly2Dgame extends JPanel  implements MouseMotionListene
         public Pizza() {
         	try {
                 //fighter image
-                image = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/pizza.png"));
-                //background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+                image = ImageIO.read(new File("pizza.png"));
+                //background = ImageIO.read(new File("ITExpert.jpg"));
             } catch (IOException ex) {  ex.printStackTrace();   }
         }
 
@@ -467,8 +467,8 @@ public class ProductAssembly2Dgame extends JPanel  implements MouseMotionListene
         public CupCake() {
         	try {
                 //fighter image
-                image = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/cupcake.jpg"));
-                //background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+                image = ImageIO.read(new File("cupcake.jpg"));
+                //background = ImageIO.read(new File("ITExpert.jpg"));
             } catch (IOException ex) {  ex.printStackTrace();   }
         }
 
@@ -504,8 +504,8 @@ public class ProductAssembly2Dgame extends JPanel  implements MouseMotionListene
         public Bike() {
         	try {
                 //fighter image
-                image = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/bike.jpg"));
-                //background = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+                image = ImageIO.read(new File("bike.jpg"));
+                //background = ImageIO.read(new File("ITExpert.jpg"));
             } catch (IOException ex) {  ex.printStackTrace();   }
         }
 
