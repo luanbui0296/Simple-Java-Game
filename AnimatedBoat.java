@@ -56,7 +56,7 @@ public class AnimatedBoat {
 
         public AnimationPane() {
             try {
-                boat = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/boat.png"));
+                boat = ImageIO.read(new File("boat.png"));
                 Timer timer = new Timer(40, new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
@@ -104,7 +104,7 @@ public class AnimatedBoat {
 
         public AnimationPane1() {
             try {
-                boat = ImageIO.read(new File("C:/Users/beautyoflife/myGame/src/myGame/ITExpert.jpg"));
+                boat = ImageIO.read(new File("ITExpert.jpg"));
                 Timer timer = new Timer(40, new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
